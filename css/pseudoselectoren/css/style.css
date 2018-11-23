@@ -1,0 +1,55 @@
+.myLink:link {
+  color: green;
+}
+
+.myLink:hover {
+  color: yellow;
+  text-decoration: underline;
+}
+
+.myLink:visited {
+  color: red
+}
+
+.myLink:active {
+  color: purple;
+}
+
+.myLink:visited:hover {
+  color: yellow;
+}
+
+
+.button {
+    -webkit-appearance: button;
+    -moz-appearance: button;
+    appearance: button;
+
+    text-decoration: none;
+    color: initial;
+}
+
+.button:hover {
+  background-color: yellow;
+}
+
+/*The :nth-child() CSS pseudo-class matches elements based on their
+position in a group of siblings.
+
+https://developer.mozilla.org/en-US/docs/Web/CSS/:nth-child
+*/
+
+
+.page > p:first-of-type {
+  color: #7E8184;
+  font-style: italic;
+  background-color: yellow;
+}
+
+.page > p:last-of-type {
+  background-color: green;
+}
+
+.page > p:last-of-type:hover {
+  background-color: blue;
+}
